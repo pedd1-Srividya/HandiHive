@@ -1,0 +1,87 @@
+
+.ai-generator {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fffaf5;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.ai-generator h2 {
+  color: #8b4513;
+  text-align: center;
+}
+
+.ai-generator > p {
+  text-align: center;
+  color: #666;
+}
+
+.ai-generator form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ai-generator label {
+  font-weight: 600;
+  color: #444;
+}
+
+.ai-generator input,
+.ai-generator select,
+.ai-generator textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.ai-generator input:focus,
+.ai-generator textarea:focus,
+.ai-generator select:focus {
+  border-color: #c08457;
+}
+
+.ai-generator button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #a0522d;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.ai-generator button:hover {
+  background: #8b4513;
+}
+
+.ai-generator button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.ai-result {
+  margin-top: 25px;
+  padding: 20px;
+  background: #f4eee8;
+  border-radius: 12px;
+}
+
+.ai-result h3 {
+  color: #8b4513;
+}
+
+.ai-result p {
+  line-height: 1.7;
+  color: #333;
+}
+
+.ai-error {
+  color: red;
+  margin-top: 15px;
+}
