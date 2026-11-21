@@ -16,7 +16,7 @@ app = FastAPI(title="HandiHive API", version="1.0.0")
 UPLOAD_DIR = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "uploads")
 )
-
+os.makedirs(UPLOAD_DIR, exist_ok=True)
 app.mount(
     "/uploads",
     StaticFiles(directory=UPLOAD_DIR),
