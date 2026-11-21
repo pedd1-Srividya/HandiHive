@@ -30,3 +30,9 @@ dist/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local uploaded files
+backend/uploads/
+
+# Local backup files
+frontend/src/pages/VirtualTryOn_backup.jsx
